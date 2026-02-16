@@ -44,7 +44,7 @@ tab1, tab2 = st.tabs(["💬 Analyze Text", "🖼️ Analyze Screenshot"])
 # === HELPER FUNCTION: PARSE AI RESPONSE ===
 def analyze_content(content, type="text"):
     # Use the correct standard model names
-    model_name = 'gemini-1.5-flash'
+    model_name = 'gemini-2.5-flash'
     model = genai.GenerativeModel(model_name)
     
     # We ask for a very strict format
