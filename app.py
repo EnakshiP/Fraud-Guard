@@ -18,7 +18,7 @@ except:
 genai.configure(api_key=api_key)
 
 # Set up the page layout
-st.set_page_config(page_title="FraudGuard", page_icon="🛡️", layout="centered")
+st.set_page_config(page_title="Fraud Guard", page_icon="🛡️", layout="centered")
 
 # --- CUSTOM CSS FOR "CLEAN" LOOK ---
 st.markdown("""
@@ -31,7 +31,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- HEADER ---
-st.title("🛡️ FraudGuard")
+st.title("🛡️ Fraud Guard")
 st.caption("Global Scam & Phishing Detector")
 
 # --- SIDEBAR ---
