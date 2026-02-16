@@ -35,7 +35,7 @@ st.title("🛡️ FraudGuard")
 st.caption("Global Scam & Phishing Detector")
 
 # --- SIDEBAR ---
-st.sidebar.title("About FraudGuard")
+st.sidebar.title("About Fraud Guard")
 st.sidebar.info("We use advanced pattern recognition to detect financial traps, phishing, and fake offers in seconds.")
 
 # --- TABS ---
